@@ -9,7 +9,7 @@ function setup() {
   createCanvas(w, h);
   pixelDensity(1);
   background(0);
-  scl = createSlider(1,10000,100);
+  scl = createSlider(1,1000,100);
   scl.position(20, h+80);
   s=scl.value();
 
